@@ -1,4 +1,3 @@
-// src/main.js
 import * as THREE from 'three';
 import gsap from 'gsap';
 
