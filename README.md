@@ -1,6 +1,6 @@
 # webxr-demos
 
-A collection of WebXR demos optimized for Spectacles.
+A collection of Three.js-based WebXR demos optimized for Spectacles.
 
 ![ preview](preview.png)
 
