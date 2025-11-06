@@ -19,7 +19,7 @@ npm install
 Run a local development server from a demo folder, for example:
 
 ```bash
-cd demos/tictactoe
+cd demos/glowcube
 npm run dev
 ```
 
