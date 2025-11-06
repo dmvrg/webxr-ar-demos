@@ -12,15 +12,14 @@ A collection of Three.js-based WebXR demos optimized for Spectacles.
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/soon/webxr-demos.git
-cd webxr-demos
+git clone https://github.com/dmvrg/webxr-demos.git
 npm install
 ```
 
 Run a local development server from a demo folder, for example:
 
 ```bash
-cd demos/glowcube
+cd demos/tictactoe
 npm run dev
 ```
 
