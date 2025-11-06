@@ -24,7 +24,7 @@ cd demos/glowcube
 npm run dev
 ```
 
-Open the local URL in a **WebXR-enabled browser** (Spectacles Browser or other headset with WebXR support) to try the demo.
+Open the local URL in a **WebXR-enabled browser** (Spectacles or another XR headset) to try the demo.
 
 
 
