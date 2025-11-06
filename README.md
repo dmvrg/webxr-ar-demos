@@ -63,10 +63,10 @@ Demo showing a 3D Tic-Tac-Toe game played through hand interactions against the 
 **Code structure:**
 
 - `main.js` — Initializes WebXR and the scene, wires all systems together, runs the render loop, and orchestrates gameplay.
-- `game/GameState3D.js` — Holds the 3×3×3 grid, checks wins/draws, and computes the AI’s next move.
-- `view/BoardView.js` — Manages the 3D grid, sphere pick targets, O/X models, and the animated winning line.
-- `view/EndGameUI.js` — Displays the win/draw banner and reset button.
-- `input/HandInput.js` — Tracks hand joints, detects pinches for placing pieces, handles board rotation, and detects button hits.
+- `GameState3D.js` — Holds the 3×3×3 grid, checks wins/draws, and computes the AI’s next move.
+- `BoardView.js` — Manages the 3D grid, sphere pick targets, O/X models, and the animated winning line.
+- `EndGameUI.js` — Displays the win/draw banner and reset button.
+- `HandInput.js` — Tracks hand joints, detects pinches for placing pieces, handles board rotation, and detects button hits.
 
 <br>
 
