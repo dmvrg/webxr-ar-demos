@@ -20,8 +20,6 @@ npm install
 npm run dev
 ```
 
-Open the local URL in a **WebXR-enabled browser** (Spectacles or another XR/AR headset) to try the demo.
-
 <br>
 
 ### Glow Cube
