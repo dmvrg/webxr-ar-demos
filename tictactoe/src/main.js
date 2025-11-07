@@ -21,7 +21,7 @@ gsap.ticker.fps(60);
 // Basic Three.js setup
 // -------------------------------------
 const scene = new THREE.Scene();
-scene.background = new THREE.Color(0x505050);
+scene.background = new THREE.Color(0x000000);
 
 // Camera
 const camera = new THREE.PerspectiveCamera(
