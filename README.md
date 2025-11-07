@@ -1,6 +1,6 @@
 # webxr-demos
 
-A collection of Three.js-based WebXR demos optimized for Spectacles.
+A collection of Three.js-based WebXR demos optimized for true AR glasses (Spectacles).
 
 <br>
 
@@ -20,7 +20,7 @@ npm install
 npm run dev
 ```
 
-Open the local URL in a **WebXR-enabled browser** (Spectacles or another XR headset) to try the demo.
+Open the local URL in a **WebXR-enabled browser** (Spectacles or another XR/AR headset) to try the demo.
 
 <br>
 
@@ -70,6 +70,25 @@ Demo where the user can customize a 3D burger using hand interactions. With both
 
 <br>
 
+### Sneaker
+
+**Live demo:** https://webxr-sneaker.vercel.app/
+
+Demo where the user can explore and customize a 3D product through direct hand interactions, using a color picker, size selector, 3D tag cloud, and a rotatable, draggable product model. Designed as a simple template and inspiration for future e-commerce AR UIs. The `product.glb` is a placeholder cube, which can be replaced with a product model (the `color` layer in the model defines which parts can have their color changed).
+
+**Code structure:**
+
+- `main.js` — Initializes XR scene, manages interactions, loads models, and orchestrates all UI modules.
+- `XRSetup.js` — Configures Three.js renderer, camera, XR session.
+- `HandInput.js` — Handles hand tracking, pinch gestures, and button touch detection.
+- `UIHeader.js` — Builds the header bar and size UI.
+- `UIColorPicker.js` — Manages the radial color selector and interaction.
+- `UITagsCloud.js` — Creates and manages the 3D category tag cloud.
+- `Environment.js` — Sets up lighting, reflections, and environment.
+- `Models.js` — Loads and manages product and cloud models, toggling visibility and transitions.
+
+<br>
+
 ### 3D Tic-Tac-Toe
 
 **Live demo:** https://webxr-tictactoe.vercel.app/
@@ -84,10 +103,6 @@ Demo showing a 3D Tic-Tac-Toe game played through hand interactions against the 
 - `EndGameUI.js` — Displays the win/lose message and reset button.
 - `HandInput.js` — Tracks hand joints, detects pinches for placing pieces, handles board rotation, and detects button hits.
 
-<br>
 
-### Sneaker
 
-**Live demo:** https://webxr-sneaker.vercel.app/
 
-(soon)
