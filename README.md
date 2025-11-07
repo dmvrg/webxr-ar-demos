@@ -51,6 +51,25 @@ Demo where the user can explore a 3D chair model through hand gestures. By press
 
 <br>
 
+### Burger
+
+**Live demo:** https://webxr-burger.vercel.app/
+
+Demo where the user can customize a 3D burger using hand interactions. With both hands, the burger can be opened into an exploded view, and individual ingredients can be toggled on and off.
+
+**Code structure:**
+
+- `main.js` — Initializes XR scene, loads models, and links UI, lighting, and hand tracking.
+- `XRScene.js` — Sets up Three.js renderer, camera, and XR session.
+- `BurgerMaterials.js` — Defines materials.
+- `BurgerModels.js` — Loads and organizes model parts.
+- `BurgerStack.js` — Builds model layers and manages open/joined states.
+- `Lights.js` — Adds lighting and shadow fitting.
+- `BurgerUI.js` — Creates in-world UI panels and switches.
+- `HandTracking.js` — Handles pinch gestures and ingredient interactions.
+
+<br>
+
 ### 3D Tic-Tac-Toe
 
 **Live demo:** https://webxr-tictactoe.vercel.app/
@@ -64,14 +83,6 @@ Demo showing a 3D Tic-Tac-Toe game played through hand interactions against the 
 - `BoardView.js` — Manages the 3D grid, sphere pick targets, O/X models, and the animated winning line.
 - `EndGameUI.js` — Displays the win/lose message and reset button.
 - `HandInput.js` — Tracks hand joints, detects pinches for placing pieces, handles board rotation, and detects button hits.
-
-<br>
-
-### Burger
-
-**Live demo:** https://webxr-burger.vercel.app/
-
-(soon)
 
 <br>
 
