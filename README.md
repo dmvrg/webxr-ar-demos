@@ -1,4 +1,4 @@
-# webxr-demos
+# webxr-ar-demos
 
 A collection of Three.js-based WebXR demos optimized for true AR glasses ([Spectacles](https://www.spectacles.com/)).
 
@@ -9,13 +9,13 @@ A collection of Three.js-based WebXR demos optimized for true AR glasses ([Spect
 Clone the repository:
 
 ```bash
-git clone https://github.com/dmvrg/webxr-demos.git
+git clone https://github.com/dmvrg/webxr-ar-demos.git
 ```
 
 Then navigate to a demo folder and install dependencies to run it locally. For example:
 
 ```bash
-cd webxr-demos/glowcube
+cd webxr-ar-demos/glowcube
 npm install
 npm run dev
 ```
