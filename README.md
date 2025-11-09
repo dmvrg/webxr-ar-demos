@@ -51,6 +51,9 @@ Demo where the user can explore a 3D chair model through hand gestures. By press
 
 <br>
 
+![ preview](preview_1.gif)
+
+
 ### Burger
 
 **Live demo:** https://webxr-burger.vercel.app/
