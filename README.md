@@ -109,6 +109,7 @@ Demo showing a 3D Tic-Tac-Toe game played through hand interactions against the 
 - `EndGameUI.js` — Displays the win/lose message and reset button.
 - `HandInput.js` — Tracks hand joints, detects pinches for placing pieces, handles board rotation, and detects button hits.
 
+![ preview](preview_4.gif)
 
 
 
